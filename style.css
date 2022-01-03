@@ -1,14 +1,4 @@
-.page-header {
-    border-bottom: 2px solid  black;
-}
-
-.content {
-    min-height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.page-footer {
-    border-top: 2px solid black;
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
 }
