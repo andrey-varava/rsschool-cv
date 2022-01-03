@@ -77,7 +77,7 @@ function likes(names) {
 
 ## Languages
 
-English - A2/B1 certified by [Streamline Language School](https://str.by)
-Russian - native
-Belarussian - Intermediate
-Polish - basic knowledge/starter
++ English - A2/B1 certified by [Streamline Language School](https://str.by)
++ Russian - native
++ Belarussian - Intermediate
++ Polish - basic knowledge/starter
