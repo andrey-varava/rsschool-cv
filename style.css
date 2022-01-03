@@ -1,0 +1,14 @@
+.page-header {
+    border-bottom: 2px solid  black;
+}
+
+.content {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-header {
+    border-top: 2 px solid black;
+}
