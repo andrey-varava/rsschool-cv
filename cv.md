@@ -75,7 +75,7 @@ function likes(names) {
 
 2011 - 2013 - Belarussian State University of Informatics and Radioelectronics, speciality: Computer Science (Faculty of Computer Systems and Networks, Informatics) - undergraduate education
 
-## Languges
+## Languages
 
 English - A2/B1 certified by [Streamline Language School](https://str.by)
 Russian - native
