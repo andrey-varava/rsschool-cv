@@ -14,3 +14,29 @@ I'm a system administrator and an entrepreneur. I would like to change my work a
 
 1. Work at the Ministry of Emergency Situations as a system administrator and a firefighter during more than 5 years. I was start work at the MES in 2015.
 2. Some experience in a web development as an entrepreneur and a few startup projects.
+
+## My skills
+
+1. Operations Systems
+    + Windows/Windows server
+    + Linux (Debian, Ubuntu, CentOS)
+    + MacOS
+2. Layout
+    + HTML
+    + CSS/SCSS/LESS
+3. Programming language
+    + JS
+        - React (+Redux)
+        - Vue (basic knowledge)
+        - JQuery
+    + Python
+        - Django
+        - Flask
+    + C/C#/php (basic knowledge)
+4. Network
+    + Vendors
+        - Fortigate firewall (certified specialist)
+        - Cisco firewall
+        - Extreme Networks
+    + OSI model
+    + Configuration different network devices
