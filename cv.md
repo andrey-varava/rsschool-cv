@@ -62,3 +62,22 @@ function likes(names) {
   }
 }
 ```
+
+## Work experience
+
++ 2020 - now - Entrepreneur (web development, configuration network and security configuration for a private business client)
++ 2020 - now - Ministry of Emergency Situations - a system administator
++ 2016 - 2020 - Ministry of Emergency Situations - a system administrator (military service)
++ 2015 - 2016 - Ministry of Emergency Situations - a firefighter and a rescue
++ 2013 - 2015 - Entrepreneur (website development)
+
+## Education
+
+2011 - 2013 - Belarussian State University of Informatics and Radioelectronics, speciality: Computer Science (Faculty of Computer Systems and Networks, Informatics) - undergraduate education
+
+## Languges
+
+English - A2/B1 certified by [Streamline Language School](https://str.by)
+Russian - native
+Belarussian - Intermediate
+Polish - basic knowledge/starter
