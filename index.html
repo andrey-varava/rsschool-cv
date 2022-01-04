@@ -13,16 +13,16 @@
             <div class="photo">
                 <img src="img/andreyvarava.jpg" alt="Andrey Varava">
             </div>
-            <article>
-                <h1>Andrey Varava</h1>
-                <span>Web developer</span>
+            <article class="about-me">
+                <h1 class="about-me__name">Andrey Varava</h1>
+                <span class="about-me__speciality">Web developer</span>
                 <section class="about">
                     <h2>About me</h2>
                     <p>I'm a system administrator and an entrepreneur. I would like to change my work and now I'm learning frontend and some other sides of software development.</p>
                 </section>
-                <section>
+                <section class="contacts">
                     <h2>Contacts</h2>
-                    <ul>
+                    <ul class="contacts__list">
                         <li>Telegram: <a href="https://t.me/andrey_varava">@andrey_varava</a></li>
                         <li>Discord-nickname: andrey-varava#6378</li>
                         <li>Email: <a href="mailto:andrew@varava.by">andrew@varava.by</a></li>
@@ -33,13 +33,14 @@
             </article>
         </header>
         <nav class="main-nav">
-            <ul>
-                <li><a href="#">Experience</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Languages</a></li>
-                <li><a href="#">Work experience</a></li>
-                <li><a href="#">Education</a></li>
-                <li><a href="#">My code</a></li>
+            <ul class="main-nav__list">
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#work-experience">Work experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#code">My code</a></li>
+                <li><a href="#projects">Educational projects</a></li>
             </ul>
         </nav>
         <main class="content">
@@ -129,22 +130,22 @@
                     You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or other items. We want to create the text that should be displayed next to such an item.
                     <br>Implement the function which takes an array containing the names of people that like an item. 
                 </p>
-                <pre>
+                <pre class="js">
                     <code>
-                        function likes(names) {
-                            names = names || [];
-                            switch(names.length){
-                            case 0: return 'no one likes this'; break;
-                            case 1: return names[0] + ' likes this'; break;
-                            case 2: return names[0] + ' and ' + names[1] + ' like this'; break;
-                            case 3: return names[0] + ', ' + names[1] + ' and ' + names[2] + ' like this'; break;
-                            default: return names[0] + ', ' + names[1] + ' and ' + (names.length - 2) + ' others like this';
-                            }
-                        }
+function likes(names) {
+    names = names || [];
+    switch(names.length){
+    case 0: return 'no one likes this'; break;
+    case 1: return names[0] + ' likes this'; break;
+    case 2: return names[0] + ' and ' + names[1] + ' like this'; break;
+    case 3: return names[0] + ', ' + names[1] + ' and ' + names[2] + ' like this'; break;
+    default: return names[0] + ', ' + names[1] + ' and ' + (names.length - 2) + ' others like this';
+    }
+}
                     </code>
                 </pre>
             </section>
-            <section>
+            <section id="projects">
                 <h2>Educational projects</h2>
                 <ul>
                     <li>Markdown CV <a href="https://andrey-varava.github.io/rsschool-cv/cv">click here</a></li>
