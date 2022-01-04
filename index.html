@@ -4,19 +4,163 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV#2. HTML, CSS & Git Basics</title>
+    <title>CV - Andrey Varava | RSSchool</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="page-header">
-        <h1>CV#2. HTML, CSS & Git Basics</h1>
-        <span>Date: 04.01.2022</span>
-    </header>
-    <main class="content">
-        <div>Task made by <a href="https://github.com/andrey-varava">Andrey Varava</a></div>
-    </main>
-    <footer class="page-footer">
-        <div>RS School by Rolling Scopes Community</div>
-    </footer>
+    <div class="wrapper">
+        <header class="page-header">
+            <div class="photo">
+                <img src="img/andreyvarava.jpg" alt="Andrey Varava">
+            </div>
+            <article>
+                <h1>Andrey Varava</h1>
+                <span>Web developer</span>
+                <section class="about">
+                    <h2>About me</h2>
+                    <p>I'm a system administrator and an entrepreneur. I would like to change my work and now I'm learning frontend and some other sides of software development.</p>
+                </section>
+                <section>
+                    <h2>Contacts</h2>
+                    <ul>
+                        <li>Telegram: <a href="https://t.me/andrey_varava">@andrey_varava</a></li>
+                        <li>Discord-nickname: andrey-varava#6378</li>
+                        <li>Email: <a href="mailto:andrew@varava.by">andrew@varava.by</a></li>
+                        <li>LinkedIn: <a href="https://by.linkedin.com/in/andreyvarava">Andrey Varava</a></li>
+                        <li>GitHub: <a href="https://github.com/andrey-varava">andrey-varava</a></li>
+                    </ul>
+                </section>
+            </article>
+        </header>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Languages</a></li>
+                <li><a href="#">Work experience</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">My code</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <section id="experience">
+                <h2>Experience</h2>
+                <p>Work at the Ministry of Emergency Situations as a system administrator and a firefighter during more than 5 years. I was start work at the MES in 2015.</p>
+                <p>Some experience in a web development as an entrepreneur and a few startup projects.</p>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <ol>
+                    <li>
+                        <ul>
+                            <li>Windows/Windows server</li>
+                            <li>Linux (Debian, Ubuntu, CentOS)</li>
+                            <li>MacOS</li>
+                        </ul>
+                    </li>
+                    <li>Layout
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS/SCSS/LESS</li>
+                        </ul>
+                    </li>
+                    <li>Programming language
+                        <ul>
+                            <li>JS
+                                <ul>
+                                    <li>React (+Redux)</li>
+                                    <li>Vue (basic knowledge)</li>
+                                    <li>JQuery</li>
+                                </ul>
+                            </li>
+                            <li>Python
+                                <ul>
+                                    <li>Django</li>
+                                    <li>Flask</li>
+                                </ul>
+                            </li>
+                            <li>C/C#/php (basic knowledge)</li>
+                        </ul>
+                    </li>
+                    <li>Network
+                        <ul>
+                            <li>Vendors
+                                <ul>
+                                    <li>Fortigate firewall (certified specialist)</li>
+                                    <li>Cisco firewall</li>
+                                    <li>Extreme Networks</li>
+                                </ul>
+                            </li>
+                            <li>OSI model</li>
+                            <li>Configuration different network devices</li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+            <section id="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>English - A2/B1 certified by <a href="https://str.by">Streamline Language School</a></li>
+                    <li>Russian - native</li>
+                    <li>Belarussian - Intermediate</li>
+                    <li>Polish - basic knowledge/starter</li>
+                </ul>
+            </section>
+            <section id="work-experience">
+                <h2>Work experience</h2>
+                <ul>
+                    <li>2020 - now - Entrepreneur (web development, configuration network and security configuration for a private business client)</li>
+                    <li>2020 - now - Ministry of Emergency Situations - a system administator</li>
+                    <li>2016 - 2020 - Ministry of Emergency Situations - a system administrator (military service)</li>
+                    <li>2015 - 2016 - Ministry of Emergency Situations - a firefighter and a rescue</li>
+                    <li>2013 - 2015 - Entrepreneur (website development)</li>
+                </ul>
+            </section>
+            <section id="education">
+                <h2>Education</h2>
+                <p>
+                    2011 - 2013 - <a href="https://bsuir.by">Belarussian State University of Informatics and Radioelectronics</a>, speciality: Computer Science (<a href="https://fksis.bsuir.by/">Faculty of Computer Systems and Networks</a>, Informatics) - undergraduate education
+                </p>
+            </section>
+            <section id="code">
+                <h2>My code</h2>
+                <p><b>Task from <a href="https://codewars.com">codewars.com</a></b></p>
+                <p>
+                    You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or other items. We want to create the text that should be displayed next to such an item.
+                    <br>Implement the function which takes an array containing the names of people that like an item. 
+                </p>
+                <pre>
+                    <code>
+                        function likes(names) {
+                            names = names || [];
+                            switch(names.length){
+                            case 0: return 'no one likes this'; break;
+                            case 1: return names[0] + ' likes this'; break;
+                            case 2: return names[0] + ' and ' + names[1] + ' like this'; break;
+                            case 3: return names[0] + ', ' + names[1] + ' and ' + names[2] + ' like this'; break;
+                            default: return names[0] + ', ' + names[1] + ' and ' + (names.length - 2) + ' others like this';
+                            }
+                        }
+                    </code>
+                </pre>
+            </section>
+            <section>
+                <h2>Educational projects</h2>
+                <ul>
+                    <li>Markdown CV <a href="https://andrey-varava.github.io/rsschool-cv/cv">click here</a></li>
+                    <li>Git and HTML for CV <a href="https://andrey-varava.github.io/rsschool-cv/">click here</a></li>
+                </ul>
+            </section>
+        </main>
+        <footer class="page-footer">
+            <div>
+                Author: <a href="https://github.com/andrey-varava">Andrey Varava</a>
+            </div>
+            <div>
+                Project made in the implementation task of <br>
+                <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="RS School" width="100"></a>    
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
