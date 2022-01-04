@@ -69,3 +69,11 @@ a {
     background-color: rgb(49, 49, 49);
     color: rgb(199, 199, 199);
 }
+
+.page-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin: 20px 0;
+    border-top: 5px solid rgb(1, 26, 80);
+}
